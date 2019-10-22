@@ -1,8 +1,14 @@
 import React,{Component} from "react";
 import ReactDOM from 'react-dom';
+import Btn from "./Button";
 class App extends Component{
     render(){
-        return <button>Submit</button>;
+        return <div>
+        <Btn>Submit</Btn> 
+        <Btn>Open</Btn>
+        <Btn>Close</Btn>
+        <Btn>right</Btn>
+        </div>;    
     }
 }
 // let el=<button>Submit</button>;
